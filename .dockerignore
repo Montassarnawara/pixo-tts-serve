@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+tts_server.egg-info
+tests
+.env
+.env.example
+bin
+README.md

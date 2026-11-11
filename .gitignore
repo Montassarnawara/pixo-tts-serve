@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+tts_server.egg-info/
+
+# Secrets — jamais commités (voir .env.example)
+.env
+
+# Binaire externe Windows téléchargé localement (voir README §2.4) — trop gros, pas pour git.
+# Le Dockerfile télécharge lui-même le build Linux pendant le build : pas besoin de le vendorer.
+bin/
